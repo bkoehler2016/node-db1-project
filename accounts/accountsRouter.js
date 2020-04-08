@@ -59,7 +59,7 @@ router.put("/:id", (req, res) => {
       }
     })
     .catch((err) => {
-      res.status(501).json({ message: "error updating", err });
+      res.status(500).json({ message: "error updating", err });
     });
 });
 
