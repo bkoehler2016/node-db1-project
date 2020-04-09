@@ -9,7 +9,7 @@ server.use(express.json());
 server.use("/api/accounts", accountRouter);
 
 server.get("/", (req, res) => {
-  return res.send("<h2>This is in the server.</h2>");
+  return res.send("<h2>Server is running.</h2>");
 });
 
 module.exports = server;
