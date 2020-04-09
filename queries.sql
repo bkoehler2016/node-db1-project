@@ -24,7 +24,7 @@ SELECT City
 , Country  FROM [Customers]
 WHERE City = 'London'
 OR City = 'Madrid'
-OR City = 'Brazil'
+OR Country = 'Brazil'
 
 -- Add a customer record for "The Shire", the contact name is "Bilbo Baggins" the address is -"1 Hobbit-Hole" in "Bag End", postal code "111" and the country is "Middle Earth"
 INSERT INTO Customers
